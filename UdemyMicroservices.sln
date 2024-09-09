@@ -22,6 +22,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IdentityServer", "IdentityS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FreeCourse.IdentityServer", "IdentityServer\FreeCourse.IdentityServer\FreeCourse.IdentityServer.csproj", "{4FD6B909-09D6-4269-AA56-BD06B2AF593F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PhotoStock", "PhotoStock", "{8AA5B536-DB6F-4414-B577-5142E7AC8622}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FreeCourse.Services.PhotoStock", "Services\PhotoStock\FreeCourse.Services.PhotoStock\FreeCourse.Services.PhotoStock.csproj", "{75C6B302-1A9A-425C-86DE-A1795058E6F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -40,6 +44,10 @@ Global
 		{4FD6B909-09D6-4269-AA56-BD06B2AF593F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD6B909-09D6-4269-AA56-BD06B2AF593F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD6B909-09D6-4269-AA56-BD06B2AF593F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75C6B302-1A9A-425C-86DE-A1795058E6F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75C6B302-1A9A-425C-86DE-A1795058E6F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75C6B302-1A9A-425C-86DE-A1795058E6F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75C6B302-1A9A-425C-86DE-A1795058E6F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +57,8 @@ Global
 		{5E8A5F01-C765-49DF-842E-3C862E66BB68} = {C21F89F3-3D3A-47B0-A8E0-B3053B86C9B3}
 		{A46127EE-3551-40BE-90D0-15723FCACCF5} = {D8E6B714-1F8C-4F4D-9882-BE3754224A7A}
 		{4FD6B909-09D6-4269-AA56-BD06B2AF593F} = {CD324B71-D55A-49D6-ABBC-EB60AD030CCC}
+		{8AA5B536-DB6F-4414-B577-5142E7AC8622} = {A7F8C350-3451-43E2-8775-B2D19ED76FEF}
+		{75C6B302-1A9A-425C-86DE-A1795058E6F8} = {8AA5B536-DB6F-4414-B577-5142E7AC8622}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {52A28924-8E06-478A-8B18-33E6AA51F4BB}
